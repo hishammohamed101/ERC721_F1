@@ -12,7 +12,7 @@ ERC721 Compliance: Inherits from OpenZeppelin's ERC721 implementation for NFT st
 Access Control: Uses Ownable.sol for restricting certain functions to the contract owner.
 
 ## Usage
-# Requirements
+## Requirements
 Ethereum Environment: Ensure access to an Ethereum-compatible environment (e.g., Remix, Truffle, Ganache).
 Ether: Some functions may require payment in Ether (mintPrice).
 
@@ -22,5 +22,7 @@ Ensure sufficient Ether for transaction fees and mintPrice.
 
 ## Functions
 ```toggleIsMintEnabled```: Toggles minting functionality on/off. Only callable by the contract owner.
+
 ```setMaxSupply```: Sets the maximum number of tokens (maxSupply). Only callable by the contract owner.
+
 ```mint```: Mints a new token to the caller's address if conditions (isMintEnabled, maxSupply, etc.) are met.
