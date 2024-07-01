@@ -11,7 +11,7 @@ Ownership Control: The contract owner can enable/disable minting and set maximum
 ERC721 Compliance: Inherits from OpenZeppelin's ERC721 implementation for NFT standards.
 Access Control: Uses Ownable.sol for restricting certain functions to the contract owner.
 
-## Usage
+
 ## Requirements
 Ethereum Environment: Ensure access to an Ethereum-compatible environment (e.g., Remix, Truffle, Ganache).
 Ether: Some functions may require payment in Ether (mintPrice).
